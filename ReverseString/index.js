@@ -1,8 +1,8 @@
-function reverseString(str) {
+export function reverseString(str) {
   return str.split('').reverse().join('');
 }
 
-function reverseStringWithoutMethod(str) {
+export function reverseStringWithoutMethod(str) {
   let reversed = '';
 
   for (let character of str) {
@@ -12,7 +12,7 @@ function reverseStringWithoutMethod(str) {
   return reversed;
 }
 
-function reverseStringByReduce(str) {
+export function reverseStringByReduce(str) {
   return str.split('').reduce((reversed, character) => {
     return character + reversed;
   }, '');

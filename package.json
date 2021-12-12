@@ -1,0 +1,27 @@
+{
+  "name": "algorithmsdatastructure",
+  "version": "1.0.0",
+  "description": "Solution exercises from course:  https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiktorlipiec/AlgoDataStructure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiktorlipiec/AlgoDataStructure/issues"
+  },
+  "homepage": "https://github.com/wiktorlipiec/AlgoDataStructure#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jest": "^27.4.4",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.4"
+  }
+}
